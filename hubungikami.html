@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Hubungi Kami</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<div id="wrapper">
+    <div id="container">
+
+        <header>
+            <img src="images/Logo.png" alt="Logo">
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.php">Beranda</a></li>
+                <li><a href="#">Artikel</a></li>
+                <li><a href="#">Profil</a>
+                    <ul class="submenu">
+                        <li><a href="hubungikami.html">Hubungi Kami</a></li>
+                        <li><a href="tentangkami.html">Tentang Kami</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <article>
+            <div class="single">
+                <h2>Hubungi Kami</h2>
+                <p>Silakan isi form di bawah untuk mengirim pesan atau pertanyaan kepada kami.</p>
+
+                <form action="#" method="post">
+                    <p>
+                        <label for="nama">Nama:</label><br>
+                        <input type="text" id="nama" name="nama" required style="width: 95%; padding:5px;">
+                    </p>
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required style="width: 95%; padding:5px;">
+                    </p>
+                    <p>
+                        <label for="pesan">Pesan:</label><br>
+                        <textarea id="pesan" name="pesan" rows="6" required style="width: 95%; padding:5px;"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Kirim" style="padding:8px 15px; background:#FF4500; color:#fff; border:none; border-radius:5px; cursor:pointer;">
+                    </p>
+                </form>
+            </div>
+        </article>
+
+        <aside>
+            <div class="widget">
+                <h2>Berita Populer</h2>
+                <ul>
+                    <li><a href="#">Rekomendasi Sneakers skateboard</a></li>
+                    <li><a href="#">Rekomendasi Sneakers slip on</a></li>
+                    <li><a href="#">Rekomendasi Sneakers canvas</a></li>
+                </ul>
+            </div>
+
+            <div class="widget">
+                <h2>Artikel Populer</h2>
+                <ul>
+                    <li><a href="#">Tips Merawat Sneakers</a></li>
+                    <li><a href="#">Jenis-Jenis Sneakers</a></li>
+                    <li><a href="#">Cara Memilih Sepatu Nyaman</a></li>
+                </ul>
+            </div>
+        </aside>
+		
+        <footer>
+            <div id="column">
+                <h2>Tentang Situs Sepatu</h2>
+                Situs ini membahas berbagai jenis sepatu, termasuk sneakers, running shoes, dan sepatu formal.
+            </div>
+
+            <div id="column">
+                <h2>Tujuan Kami</h2>
+                Memberikan informasi akurat dan menarik tentang dunia sepatu.
+            </div>
+
+            <div id="column">
+                <h2>Hubungi Kami</h2>
+				Email: <a href="#">sneakerzone@gmail.om</a><br>
+				Instagram: <a href="#">@sneakerzone_id</a>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
